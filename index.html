@@ -226,7 +226,7 @@
 						<a href="#" class="button">Zobacz więcej</a>
 					</div>
 				</div>
-				<div class="player" data-property="{videoURL:'tj6B489H_zg',containment:'#movie',showControls:false,startAt:0,mute:true,autoPlay:true,loop:true,opacity:1}">
+				<div class="player" data-property="{videoURL:'https://youtu.be/tj6B489H_zg',containment:'#movie',showControls:false,startAt:0,mute:true,autoPlay:true,loop:true,opacity:1}">
 				</div>
 			</div>
 
@@ -496,16 +496,16 @@
 			    controls: true,
 			    pager: false,
 			});
-			$('*[data-animate]').addClass('hide').each(function(){
-			$(this).viewportChecker({
-				classToAdd: 'show animated ' + $(this).data('animate'),
-				classToRemove: 'hide',
-				offset: 200
-			});
+			// $('*[data-animate]').addClass('hide').each(function(){
+			// $(this).viewportChecker({
+			// 	classToAdd: 'show animated ' + $(this).data('animate'),
+			// 	classToRemove: 'hide',
+			// 	offset: 200
+			// });
 			$('.photo-banner-inner').viewportChecker({
 				classToAdd: 'animated ZoomIn'
 			});
-			});
+			// });
 			
 			$('#portfolio-carosel').owlCarousel({
 				autoPlay: 4000,
